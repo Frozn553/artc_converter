@@ -1,0 +1,25 @@
+read_bag_path: "/home/frozn/nas/homes/artc/rosbag2_2024_11_05-16_01_19/"
+write_bag_path: "/home/frozn/artc1105"
+
+map_origin:
+  latitude: 24.0604
+  longitude: 120.3837
+  elevation: 20.0
+
+imu_topic: "/imu/data"
+
+gps_topic: "/novatel/oem7/bestpos"
+
+inspva_topic: "/novatel/oem7/inspva"
+
+tf_static_path:
+  "/home/frozn/2024_ARTC_Yabloc_tools/artc_converter/examples/tf_static.yaml"
+
+groundtruth_path: "examples/ARTC1105_groud_truth.csv"
+
+camera_list:
+  - camera_name: front_camera
+    camera_info_topic: "/front_camera/camera_info"
+    camera_info_path: "/home/frozn/2024_ARTC_Yabloc_tools/artc_converter/examples/camera_info_front.yaml"
+    image_topic: "/front_camera/camera/image_raw"
+    
